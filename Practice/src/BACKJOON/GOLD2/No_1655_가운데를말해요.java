@@ -22,8 +22,10 @@ public class No_1655_가운데를말해요 {
             }
             if(i % 2 != 0){
                 answer += list.get(i / 2) + "\n";
+                System.out.println(answer);
             }else{
                 answer += list.get((i / 2) - 1) + "\n";
+                System.out.println(answer);
             }
         }
 
