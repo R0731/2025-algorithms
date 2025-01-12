@@ -17,15 +17,18 @@ public class No_1655_가운데를말해요 {
 
         for(int i = 0; i < N; i++){
             int n = Integer.parseInt(br.readLine());
-            for(int j = 0; j < list.size(); j++){
-                list.add(n, j);
-            }
-            if(i % 2 != 0){
-                answer += list.get(i / 2) + "\n";
-                System.out.println(answer);
+            System.out.println("사이즈" + list.size());
+            if(i == 0){
+                list.add(n);
             }else{
-                answer += list.get((i / 2) - 1) + "\n";
-                System.out.println(answer);
+                for(int j = 0; j < list.size(); j++){
+                    System.out.println("작동");
+                    if(list.get(j) >= n){
+                        list.add(j, n);
+                        System.out.println("리스트 조회" + list.toArray().toString());
+                        break;
+                    }
+                }
             }
         }
 
