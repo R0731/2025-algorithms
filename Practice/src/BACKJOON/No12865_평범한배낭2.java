@@ -1,9 +1,8 @@
-package BACKJOON.GOLD5;
+package BACKJOON;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class No12865_평범한배낭2 {

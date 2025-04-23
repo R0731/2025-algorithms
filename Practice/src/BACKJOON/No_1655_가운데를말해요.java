@@ -1,7 +1,6 @@
-package BACKJOON.GOLD2;
+package BACKJOON;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedList;

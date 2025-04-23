@@ -1,4 +1,4 @@
-package BACKJOON.GOLD5;
+package BACKJOON;
 
 import java.io.BufferedReader;
 import java.io.IOException;
